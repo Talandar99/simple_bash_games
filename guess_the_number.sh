@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Guess the number"
+NUMBER=$(($RANDOM%100))
+echo $NUMBER
