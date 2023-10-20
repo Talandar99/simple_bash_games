@@ -1,4 +1,12 @@
 #!/bin/bash
 
-NUMBER=$(($RANDOM%100))
-echo $NUMBER
+
+main (){
+    NUMBER=$(($RANDOM%100))
+    echo $NUMBER
+    echo "Guess the number"
+    read USER_NUMBER
+    echo $USER_NUMBER
+}
+
+main
